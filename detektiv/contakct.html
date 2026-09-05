@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Bog'lanish</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Bizga ish bering yoki yordam so'rang</h1>
+
+        <nav>
+            <a href="index.html">Bosh sahifa</a> |
+            <a href="cases.html">Ishlar</a> |
+            <a href="detectives.html">Detektivlar</a> |
+            <a href="contact.html">Bog'lanish</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section>
+
+            <h2>Murojaat yuborish</h2>
+
+            <form>
+
+                <p>
+                    <label for="name">Ism:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Ismingizni kiriting"
+                    >
+                </p>
+
+
+                <p>
+                    <label for="phone">Telefon:</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="+998 90 123 45 67"
+                    >
+                </p>
+
+
+                <p>
+                    <label for="type">Ish turi:</label>
+
+                    <select id="type" name="type">
+
+                        <option value="ogirlik">
+                            O'g'irlik
+                        </option>
+
+                        <option value="firibgarlik">
+                            Firibgarlik
+                        </option>
+
+                        <option value="yoqolish">
+                            Yo'qolish
+                        </option>
+
+                        <option value="boshqa">
+                            Boshqa
+                        </option>
+
+                    </select>
+                </p>
+
+
+                <p>
+                    <label for="description">
+                        Qisqa tavsif:
+                    </label>
+                </p>
+
+                <textarea
+                    id="description"
+                    name="description"
+                    rows="7"
+                    cols="50"
+                    placeholder="Ish haqida qisqacha yozing..."
+                ></textarea>
+
+
+                <p>
+                    <button type="submit">
+                        Yuborish
+                    </button>
+                </p>
+
+            </form>
+
+        </section>
+
+
+        <section>
+
+            <h2>Bizning manzilimiz</h2>
+
+            <address>
+
+                Sirli Ishlar Byurosi<br>
+                Toshkent shahri<br>
+                Amir Temur ko'chasi, 10-uy<br>
+                Telefon: +998 90 123 45 67<br>
+                Email: info@sirliishlar.uz
+
+            </address>
+
+        </section>
+
+
+        <section>
+
+            <h2>Joylashuv</h2>
+
+            <iframe
+                src="https://www.google.com/maps"
+                width="600"
+                height="350"
+                title="Ofis joylashuvi">
+            </iframe>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Sirli Ishlar Byurosi</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    background-color: #fff8e7;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: darkred;
+}
+
+nav {
+    background-color: brown;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
+}

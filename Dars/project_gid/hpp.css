@@ -1,0 +1,158 @@
+
+body {
+    background-color: #1b2f33;
+}
+
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 48px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0d382c;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo-icon {
+    color: #d49a37;
+    font-size: 18px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2d4739;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+}
+
+.nav-links a.active {
+    background-color: #edf5f0;
+    color: #0d382c;
+}
+
+.nav-links a:hover:not(.active) {
+    background-color: #f5f5f5;
+}
+
+.card {
+    position: relative;
+    width: 330px;
+    height: 185px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 55%;
+
+    background: linear-gradient(transparent,
+            rgba(0, 0, 0, 0.75));
+}
+
+.card h2 {
+    position: absolute;
+    left: 15px;
+    bottom: 12px;
+
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.hero {
+    padding-top: 30px;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 70px;
+}
+
+h1 {
+    color: #f5f1e8;
+}
+
+h2 {
+    color: #dfe7e5;
+}
+
+p {
+    color: #c9d2d0;
+}
+
+
+footer {
+    background-color: #193337;
+    padding: 35px;
+    color: white;
+}
+
+footer h1 {
+    margin: 0 0 10px;
+    font-size: 32px;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    color: #c58cff;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.copy {
+    margin-top: 25px !important;
+    font-size: 15px;
+    color: #ccc;
+}

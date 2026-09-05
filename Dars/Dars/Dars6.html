@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ro'yhatdan o'tish</h1>
+    <form action="backend.py">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="To'liq ism">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="email@gmail.uz">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" minlength="6" placeholder="qwert1234">
+        <br>
+            <label for="shahar">Shahar: </label>
+            <select name="shahar" id="shahar">
+                <option value="Toshkent">TOSHKENT</option>
+                <option value="Samarqand">SAMARQAND</option>
+                <option value="Buhoro">BUHORO</option>
+                <option value="Namangan">NAMANGAN</option>
+            </select>
+            <br>
+        <label for="gender">Gender: </label>
+
+        <label for="male">Male: </label>
+        <input type="radio" id="male" name="gender">
+
+        <label for="female">Female: </label>
+        <input type="radio" id="female" name="gender">
+
+        <br>
+        <input type="checkbox" id="Shartlarga ro'ziman" >
+        <label for="Shartlarga ro'ziman">Shartlarga ro'ziman</label>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

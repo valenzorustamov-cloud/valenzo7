@@ -1,0 +1,34 @@
+body {
+    background-color: #e3f2fd;
+    font-family: Arial;
+    margin: 30px;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+input, textarea {
+    padding: 8px;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}

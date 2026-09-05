@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzbekistonning Go'zal Shaharlari</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e3d45; 
+            color: #ffffff;
+        }
+
+        /* Navigatsiya satri (Header) */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            color: #333;
+            padding: 15px 50px;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .hero {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center; 
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 28px;
+            margin: 40px 0 20px;
+        }
+
+        .cities-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .city-card {
+            background-color: #ffffff;
+            color: #333;
+            width: 300px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .city-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .city-info {
+            padding: 20px;
+        }
+
+        .city-info h3 {
+            margin-top: 0;
+            color: #1e3d45;
+        }
+
+        .city-info ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+
+        .city-info li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+ 
+    <header>
+        <div class="logo">✦ Travel Guide</div>
+        <nav>
+            <a href="">Bosh sahifa</a>
+            <a href="">Shaharlar</a>
+            <a href="">Joylar</a>
+            <a href="">Maslahatlar</a>
+            <a href="">Aloqa</a>
+        </nav>
+    </header>
+
+
+    <div class="hero">
+        <h1>O'zbekistonning Go'zal Shaharlari</h1>
+        <p>O'zbekiston — boy tarixi, qadimiy madaniyati va takrorlanmas tabiati bilan mashhur mamlakat. 
+            Bu yerda har bir shahar, har bir maskan o'ziga xos hikoyaga ega.
+        </p>
+    </div>
+
+   
+    <h2 class="section-title">Mashhur shaharlar</h2>
+
+    <div class="cities-container">
+        <div class="city-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg9IaX7pCD3Pf9O4Kz_jyvtxFEhGxYfARzA2uj63q2NA&s=10" alt="Samarqand" width="300" height="180">
+            <div class="city-info">
+                <h3>Samarqand</h3>
+                <p><strong>Nimalar kiradi / Mashhur joylar:</strong></p>
+                <ul>
+                    <li>Registon maydoni</li>
+                    <li>Go'ri Amir maqbarasi</li>
+                    <li>Bibixonim masjidi</li>
+                    <li>Siqob bozori</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="city-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk2egBf68uA1qufWgW5nv0OFUT9rIP28irwdft04OyIA&s=10" alt="Buxoro" width="300" height="180">
+            <div class="city-info">
+                <h3>Buxoro</h3>
+                <p><strong>Nimalar kiradi / Mashhur joylar:</strong></p>
+                <ul>
+                    <li>Poyi Kalon ansambli</li>
+                    <li>Ark qal'asi</li>
+                    <li>Labi Hovuz</li>
+                    <li>Somoniylar maqbarasi</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="city-card">
+            <img src="https://uzbekistan.travel/storage/app/media/Otabek/asosiydagi%20rasmlar/cropped-images/2079897013-0-0-0-0-1728537570.jpg" alt="Xiva" width="300" height="180">
+            <div class="city-info">
+                <h3>Xiva</h3>
+                <p><strong>Nimalar kiradi / Mashhur joylar:</strong></p>
+                <ul>
+                    <li>Ichan Qal'a</li>
+                    <li>Kalta Minor</li>
+                    <li>Toshhovli saroyi</li>
+                    <li>Juma masjidi</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

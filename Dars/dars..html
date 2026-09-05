@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>O'quv kursiga a'zo bo'lish anketasi</h1>
+    <form action="backend.py">
+        <label for="To'liq ism-sharifingiz">To'liq ism-sharifingiz</label>
+        <input type="text" id="name">
+
+    <br><br>
+
+        <label for="Tug'lgan sanangiz">Tug'ilgan sanangiz: </label>
+        <input type="date" id="Tug'ilgan sana">
+
+    <br><br>
+
+        <label for="Jinsingiz">Jinsingiz: </label>
+    <br>
+        <label for="Erkak">Erkak</label>
+        <input type="radio" id="radio">
+    <br>
+        <label for="Ayol">Ayol</label>
+        <input type="radio" id="radio">
+
+    <br><br>
+
+        <label for="Telefon raqam">Telelfon raqam:</label>
+        <input type="number" id="number">
+
+    <br><br>
+        <label for="Ta'lim shaklini tanlang">Ta'lim shaklini tanlang</label>
+
+
+        <select name="talim" id="talim">
+            <option value="Masofaviy">Masofaviy</option>
+        </select>
+
+    <br><br>
+
+        <label for="comment">O'zingiz va maqsadingiz haqida qisqacha</label>
+
+    <br>
+
+        <input type="+comment" id="comment"  placeholder="Nima uchun bu kursda oqvossiz?">
+
+    <br>
+
+    <input type="submit">
+    <input type="reset">
+    </form>
+</body>
+</html>

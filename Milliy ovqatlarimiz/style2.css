@@ -1,0 +1,30 @@
+body {
+    background-color: #fff3e0;
+    font-family: Arial;
+    margin: 30px;
+}
+
+h1 {
+    color: darkorange;
+    text-align: center;
+}
+
+h2 {
+    color: brown;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    background-color: darkorange;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+li {
+    margin: 8px;
+}
