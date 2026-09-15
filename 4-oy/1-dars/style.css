@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dfe7fd;    
+}
+
+.login-google {
+    width: 350px;
+    margin: 100px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#email {
+    border: 2px solid blue;
+}
+
+h2,  label,  p {
+    color: #18343d;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: red; 
+}
+
+.login-google input {
+    color: green;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #18343d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:focus {
+    background-color: green;
+    outline: 3px solid lightgreen;
+}
+
+.realmadrid {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #555;
+}
+
+.realmadrid input {
+    width: auto;
+    margin: 0;
+}
+
+.forgot, .realmadrid {
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    color: #18343d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

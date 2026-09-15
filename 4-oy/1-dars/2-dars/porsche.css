@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.porsche {
+    height: 100vh;
+    background-image: url(https://cdn-thumbs.ohmyprints.net/1/e234e026ef2364166964193110bff776/817x600/thumbnail/fit.jpg);
+    background-color: #8b0000;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 700px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+.box h1 {
+    color: #ffcc00;
+    font-size: 38px;
+}
+
+.box p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #38bdf8;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 35px;
+    font-weight: bold;
+}

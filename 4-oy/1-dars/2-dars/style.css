@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.futbol {
+    height: 100vh;
+    background-image: url(https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl/f_auto/primary/yhj1yptbuf3uy3qj7wu7);
+    background-color: #0b132b;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basketbol {
+    height: 100vh;
+    background-image: url(https://www.fox21news.com/wp-content/uploads/sites/37/2025/12/20251201_AC4_1535.jpg?w=2560&h=1440&crop=1);
+    background-color: rgb(20, 40, 70);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tennis {
+    height: 100vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ghaHFXGc3NWrEv_lWDWjr0D9r4-GTFCy4TFmkGBwaqDPK7-I32Q3fUPR&s=10);
+    background-color: navy;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zear {
+    width: 700px;
+    padding: 40px;
+    background-color: rgba(141, 157, 237, 0);
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+.zear h1 {
+    color: #ffd700;
+    font-size: 38px;
+}
+
+.zear p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #38bdf8;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 35px;
+    font-size: 16px;
+    font-weight: bold;
+}

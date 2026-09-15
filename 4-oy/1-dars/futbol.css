@@ -1,0 +1,39 @@
+body {
+    background-color:lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+.card {
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#baron {
+    text-align: center;
+    color: darkgreen;
+}
+
+#smoky {
+    text-align: center;
+    color: #333;
+}
+
+h2, li {
+    color: #333;
+}
+
+.smoky {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #555;
+}
